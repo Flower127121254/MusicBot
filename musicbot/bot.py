@@ -1796,7 +1796,7 @@ class MusicBot(discord.Client):
 
         return Response(self.str.get('cmd-stream-success', "Streaming."), delete_after=6)
 
-    async def cmd_search(self, message, player, channel, author, permissions, leftover_args):
+    async def cmd_검색(self, message, player, channel, author, permissions, leftover_args):
         """
         Usage:
             {command_prefix}search [service] [number] query
